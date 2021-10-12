@@ -2,7 +2,7 @@
 Basic Digital Storage Oscilloscope
 
 ## Introduction
-This oscilloscope uses an STM32F103 board as the main MPU for processing and display of output
+This oscilloscope uses an STM32F103C8T6 blue pill board as the main MPU for processing and display of output
 
 ## Specifications
 | Spec | Value |
@@ -24,8 +24,8 @@ This oscilloscope uses an STM32F103 board as the main MPU for processing and dis
 |Record length| 1024|
 
 
-### Front View
-![Front View](front-view.png)
+### Top View
+![Top View](top-view.png)
 
 ### Bottom View
 ![Bottom View](bottom-view.png)
