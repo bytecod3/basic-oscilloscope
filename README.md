@@ -24,4 +24,18 @@ This oscilloscope uses an STM32F103 board as the main MPU for processing and dis
 |Record length| 1024|
 
 
+### Front View
+![Front View](front-view.png)
+
+### Bottom View
+![Bottom View](bottom-view.png)
+
+### Left View
+![Left View](left-view.png)
+
+### Right View
+![Right View](right-view.png)
+
+
+
 
