@@ -1,0 +1,20 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 7 8
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Text Notes 3100 3450 0    168  ~ 34
+ARM-CORTEX-M3 MINI OSCILLOSCOPE
+Text Notes 3700 3650 0    89   ~ 18
+Designed By: Edwin Mwiti, Ohmicc Hardware
+$EndSCHEMATC

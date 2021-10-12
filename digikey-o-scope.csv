@@ -1,0 +1,27 @@
+Reference, Quantity, Value, Footprint, Digi-Key_PN, MPN,,Price,Total Price,Part Page
+C12 C13 C14 C15 C16 C18 ,6,100n,Capacitor_THT:CP_Radial_D4.0mm_P1.50mm,493-12784-1-ND,UVR1H0R1MDD6TP,,$0.30,$1.80,https://www.digikey.com/en/products/detail/nichicon/UVR1H0R1MDD6TP/4328371?s=N4IgTCBcDaICwE4DMBaAjGA7ADjulAcgCIgC6AvkA
+C17 ,1,0.22u,Capacitor_THT:CP_Radial_D5.0mm_P2.50mm,493-11478-1-ND,URS1HR22MDD1TD,,$0.37,$0.37,https://www.digikey.com/en/products/detail/nichicon/URS1HR22MDD1TD/4320225?s=N4IgTCBcDaIKoCUDKBGAEgsYCyARXKAKriALoC%2BQA
+C20 ,1,22u,Capacitor_THT:CP_Radial_D5.0mm_P2.00mm,1572-1384-ND,226CKR050M,,$0.19,$0.19,https://www.digikey.com/en/products/detail/illinois-capacitor/226CKR050M/5411619?s=N4IgTCBcDa5gbAYQNICUAMBWdBZEBdAXyA
+C1 C2 C3 C4 C5 C6 C7 C8 C9 C10 C11 C19 ,12,0.1u,Capacitor_THT:CP_Radial_D4.0mm_P1.50mm,493-12784-1-ND,UVR1H0R1MDD6TP,,$0.30,$3.60,https://www.digikey.com/en/products/detail/nichicon/UVR1H0R1MDD6TP/4328371?s=N4IgTCBcDaICwE4DMBaAjGA7ADjulAcgCIgC6AvkA
+D1 D2 ,2,D,Diode_THT:D_DO-41_SOD81_P2.54mm_Vertical_KathodeUp,1N4148-P-GICT-ND,1N4148-P-TR,,$0.17,$0.34,https://www.digikey.com/en/products/detail/vishay-general-semiconductor-diodes-division/1N4148-P-TR/4826413
+D3 D4 D5 ,3,LED,LED_SMD:LED_1206_3216Metric,2460-L152L-LWCTR-ND,L152L-LWC,,$0.37,$1.11,https://www.digikey.com/en/products/detail/american-opto-plus-led/L152L-LWC/12325421?s=N4IgTCBcDa4CwDYAMBaAMgRgKxjeg6gMIAqASigHIAiIAugL5A
+J1 J2 ,2,5-1814400-1,digikey-footprints:RF_SMA_RightAngle_5-1814400-1,2057-RF1-07-T-00-75-ND,RF1-07-T-00-75,,$2.49,$4.98,https://www.digikey.com/en/products/detail/adam-tech/RF1-07-T-00-75/9832650
+J3 ,1,Jack-DC,Connector_BarrelJack:BarrelJack_Horizontal,2073-DCJ200-10-A-K1-K-ND,DCJ200-10-A-K1-K,,$0.74,$0.74,https://www.digikey.com/en/products/detail/gct/DCJ200-10-A-K1-K/9859579
+J4 ,1,Screw_Terminal_01x02,TerminalBlock:TerminalBlock_Altech_AK300-2_P5.00mm,1801135-ND,1801135,,$1.09,$1.09,https://www.digikey.com/en/products/detail/phoenix-contact/1801135/4387899?s=N4IgTCBcDaIIwA4AMc4GYCsBaAcgERAF0BfIA
+J5 ,1,Micro_SD_Card,digikey-footprints:MicroSD_2908-05WB-MG,3M5607CT-ND,2908-05WB-MG,,$3.48,$3.48,https://www.digikey.com/en/products/detail/3m/2908-05WB-MG/1242497?s=N4IgTCBcDa4JwAYAcBaBBWA6gIRQWQHEQBdAXyA
+J6 ,1,USB_A,digikey-footprints:USB_A_Female_UE27AC54100,UE27AC54100-ND,UE27AC54100,,$0.70,$0.70,https://www.digikey.com/en/products/detail/amphenol-icc-commercial-products/UE27AC54100/1972253?s=N4IgTCBcDaIKoFEwHYCCBhArAFgIwAZ8QBdAXyA
+MC1 ,1,BLUE-PILL,my-screen:BLUE-PILL,*,*,,,$0.00,*
+R9 R10 R11 R12 R13 R14 R15 R16 R17 R29 ,10,1k,digikey-footprints:0603,13-RE0603FRE071KLTR-ND,RE0603FRE071KL,,$0.10,$1.00,https://www.digikey.com/en/products/detail/yageo/RE0603FRE071KL/5923313?s=N4IgTCBcDaIIwGYC0AlAogBgGwYQMXQwHY4BpAGQBUUkA5AERAF0BfIA
+R18 ,1,100R,Resistor_SMD:R_2512_6332Metric,RMCF2512JT100RTR-ND,RMCF2512JT100R,,$0.30,$0.30,https://www.digikey.com/en/products/detail/stackpole-electronics-inc/RMCF2512JT100R/1756924?s=N4IgTCBcDaIEoFkDCAxMBWAjGAUgFUwAZC4QBdAXyA
+R19 ,1,160R,digikey-footprints:0603,749-1765-2-ND,MCT06030C1600FP500,,$0.13,$0.13,https://www.digikey.com/en/products/detail/vishay-beyschlag-draloric-bc-components/MCT06030C1600FP500/7347856?s=N4IgTCBcDaIOwBYCcBaAjHAbAVhWFAcgCIgC6AvkA
+R20 R21 R22 R23 R24 ,5,22k,digikey-footprints:0603,RNCF0603DTE22K0TR-ND,RNCF0603DTE22K0,,$0.13,$0.65,https://www.digikey.com/en/products/detail/stackpole-electronics-inc/RNCF0603DTE22K0/6264113?s=N4IgTCBcDaIEoDkDCAxADANjQZgCIBUBRMMAaTXzgFoFcQBdAXyA
+R1 R2 R3 R4 R5 R6 R7 R8 R25 R26 R27 R28 ,12,10k,digikey-footprints:1206,13-RE1206FRE0710KLTR-ND,RE1206FRE0710KL,,$0.10,$1.20,https://www.digikey.com/en/products/detail/yageo/RE1206FRE0710KL/5924263?s=N4IgTCBcDaIEoFECMYAMA2AYo1B2JqA0gDIgC6AvkA
+SCRN1 ,1,"1.8""LCD_TFT",my-screen:1.8TFT_SCREEN,*,*,,,$0.00,*
+SW11 ,1,SW_SPDT,Button_Switch_THT: SW_CuK_OS102011MA1QN1_SPDT_Angled,2368-54-720-ND,54-720,,$1.31,$1.31,https://www.digikey.com/en/products/detail/nte-electronics-inc/54-720/11647518
+SW1 SW12 ,2,SW_SP3T,my-screen:SP3T_OS103012MU1QP1_SWITCH,CKN9552-ND,OS103012MU1QP1,,$0.85,$1.70,https://www.digikey.com/en/products/detail/c-k/OS103012MU1QP1/1981423?s=N4IgTCBcDaIPIGUCMAGAzCpYCyBVJAigApIgC6AvkA
+SW2 SW3 SW4 SW5 SW6 SW7 SW8 SW9 SW10 ,9,SW_MEC_5E,digikey-footprints:Switch_Tactile_THT_6x6mm_MJTP1230,679-2428-ND,MJTP1230,,$0.10,$0.90,https://www.digikey.com/en/products/detail/apem-inc/MJTP1230/1798037
+U12 ,1,LD1117V33,digikey-footprints:TO-220-3,497-1491-5-ND,LD1117V33,,$0.70,$0.70,https://www.digikey.com/en/products/detail/stmicroelectronics/LD1117V33/586012
+U13 ,1,LM7805_TO220,Package_TO_SOT_THT:TO-220-3_Vertical,2156-LM7805CT-ND,LM7805CT,,$1.11,$1.11,https://www.digikey.com/en/products/detail/fairchild-semiconductor/LM7805CT/12600247
+U14 ,1,LM3526-L,digikey-footprints:SOIC-8_W3.9mm,LM3526MX-L/NOPBCT-ND,LM3526MX-L/NOPB,,$1.26,$1.26,https://www.digikey.com/en/products/detail/texas-instruments/LM3526MX-L-NOPB/367056
+U16 U17 ,2,SN74HC14N,digikey-footprints:DIP-14_W3mm,296-1577-5-ND,SN74HC14N,,$0.23,$0.46,https://www.digikey.com/en/products/detail/texas-instruments/SN74HC14N/13504773
+U1 U2 ,2,LM324ADR,digikey-footprints:SOIC-14_W3.9mm,296-9540-1-ND,LM324ADR,,$0.49,$0.98,https://www.digikey.com/en/products/detail/texas-instruments/LM324ADR/381227?s=N4IgTCBcDa4JwDYC0cCsAWADEgjEgcgCIgC6AvkA

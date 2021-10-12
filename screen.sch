@@ -1,0 +1,74 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 8 8
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L my_ics:1.8"LCD_TFT SCRN1
+U 1 1 61415A11
+P 6350 4850
+F 0 "SCRN1" V 5635 4275 50  0000 C CNN
+F 1 "1.8\"LCD_TFT" V 5726 4275 50  0000 C CNN
+F 2 "my-screen:1.8TFT_SCREEN" H 6350 4850 50  0001 C CNN
+F 3 "" H 6350 4850 50  0001 C CNN
+	1    6350 4850
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:+3.3V #PWR0106
+U 1 1 61416E30
+P 5050 2950
+F 0 "#PWR0106" H 5050 2800 50  0001 C CNN
+F 1 "+3.3V" V 5065 3078 50  0000 L CNN
+F 2 "" H 5050 2950 50  0001 C CNN
+F 3 "" H 5050 2950 50  0001 C CNN
+	1    5050 2950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GNDREF #PWR0107
+U 1 1 6141782C
+P 5050 3100
+F 0 "#PWR0107" H 5050 2850 50  0001 C CNN
+F 1 "GNDREF" V 5055 2972 50  0000 R CNN
+F 2 "" H 5050 3100 50  0001 C CNN
+F 3 "" H 5050 3100 50  0001 C CNN
+	1    5050 3100
+	0    1    1    0   
+$EndComp
+NoConn ~ 6800 3250
+NoConn ~ 6800 3400
+NoConn ~ 6800 3550
+NoConn ~ 6800 3700
+Text GLabel 5050 3850 0    50   Input ~ 0
+PB3
+Text GLabel 5050 3700 0    50   Input ~ 0
+PA7
+Text GLabel 5050 3550 0    50   Input ~ 0
+PA9
+Text GLabel 5050 3400 0    50   Input ~ 0
+PA10
+Text GLabel 5050 3250 0    50   Input ~ 0
+PA11
+$Comp
+L power:+3.3V #PWR0108
+U 1 1 61419F3E
+P 5050 4000
+F 0 "#PWR0108" H 5050 3850 50  0001 C CNN
+F 1 "+3.3V" V 5065 4128 50  0000 L CNN
+F 2 "" H 5050 4000 50  0001 C CNN
+F 3 "" H 5050 4000 50  0001 C CNN
+	1    5050 4000
+	0    -1   -1   0   
+$EndComp
+$EndSCHEMATC
