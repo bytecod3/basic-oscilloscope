@@ -45,6 +45,8 @@ On both cases, a green LED should light indicating that the oscilloscope is full
 
 To switch off the oscilloscope, toggle the slide-switch agin to the direction labelled OFF on the board silkscreen.
 
+**CAUTION**: Do not use both 12V adapter and 9V at the same time
+
 ## Callibration
 
 
