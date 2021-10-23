@@ -1,29 +1,18 @@
-#define SW1 PB12
+#include <string.h>
+#include "buttonClasses.h" /*class definition for buttons */
 
-int reading; // current reading of SW1
-int SW1_STATUS = HIGH;
-
-// debounce handling
-long time = 0;
-long debounce_delay = 200;
+// create an instance of button class
+Button control_button;
 
 void setup() {
-  // put your setup code here, to run once:
-  pinMode(SW1, OUTPUT);
   Serial.begin(9600);
-
+  Serial.println("Serial listener started");
 }
 
 void loop() {
-  // put your main code here, to run repeatedly:
-  reading = digitalRead(SW1);
-  
-  if(reading == HIGH && millis()-time > debounce_delay){
-    // button has been pressed
-    Serial.println("ON");
-    
-  }else{
-    Serial.println("OFF");
-  }
 
+  // call function to check if button has been pressed
+  control_button.checkButtonPress();
+
+  
 }
