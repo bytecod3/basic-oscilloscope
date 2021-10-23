@@ -10,7 +10,7 @@ void setup() {
 
 void loop() {
  
-  button_status = digitalRead(PB12);
+  button_status = digitalRead(PB11);
   Serial.println(button_status);
  
 

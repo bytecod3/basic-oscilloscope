@@ -23,7 +23,6 @@ This oscilloscope uses an STM32F103C8T6 blue pill board as the main MPU for proc
 |Input impedance| 1MOhm|
 |Record length| 1024|
 
-
 ### Top View
 ![Top View](top-view.png)
 
@@ -35,6 +34,20 @@ This oscilloscope uses an STM32F103C8T6 blue pill board as the main MPU for proc
 
 ### Right View
 ![Right View](right-view.png)
+
+## Usage
+### Powering 
+The oscilloscope uses either 12V DC jack adapter or a 9V battery. You can only use one at a time. 
+To use the 12V adapter, plug in the jack into the DC Jack located at the top right of the board. To use the 9V battery,
+you should have a battery holder with two wires protruding, for +ve and -ve side. Fix these wires on the terminal block located at the top right corner of the board. 
+Finally is to toggle the slide-switch located on the right edge of the board.  
+On both cases, a green LED should light indicating that the oscilloscope is fully powered. 
+
+To switch off the oscilloscope, toggle the slide-switch agin to the direction labelled OFF on the board silkscreen.
+
+## Callibration
+
+
 
 
 
