@@ -4,9 +4,9 @@
 #include "buttonClasses.h" 
 
 /* screen libraries */
-#include <TFT.h>
-#include <SPI.h>
-#include "screenDefinitions.h"
+// #include <TFT.h>
+// #include <SPI.h>
+// #include "screenDefinitions.h"
 
 
 
@@ -14,14 +14,14 @@
 Button control_button;
 
 // initiaize TFT screen
-TFT scope_screen = TFT(CS, DC, RESET);
+// TFT scope_screen = TFT(CS, DC, RESET);
 
 void setup() {
   Serial.begin(9600);
   Serial.println("Serial listener started");
 
   // initialize the TFT library
-  scope_screen.begin();
+  // scope_screen.begin();
 }
 
 void loop() {

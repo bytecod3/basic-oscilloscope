@@ -1,17 +1,16 @@
 #ifndef BUTTONDEFINITIONS _H
 #define BUTTONDEFINITIONS _H
 
-/* button definitions */
-#define MENU  PB12
-#define OK    PB13
-#define PLUS  PB14
-#define MINUS PB15
-
-#define UP    16 // change inputs from here to PA__ 
-#define DOWN  17
-#define SAVE  18
-#define HOLD  9
-#define RUN   10
+/* button pin definitions */
+#define MENU  PC15
+#define OK    PA2
+#define PLUS  PA4
+#define MINUS PA3
+#define UP    PC14 
+#define DOWN  PB0
+#define SAVE  PA6
+#define HOLD  PA1
+#define RUN   PA0
 
 /* Initial status settings */
 unsigned int initial_button_status = 0x0;
