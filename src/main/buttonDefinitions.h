@@ -2,7 +2,7 @@
 #define BUTTONDEFINITIONS _H
 
 /* button pin definitions */
-#define MENU  PC15
+#define MENU  PC13
 #define OK    PA2
 #define PLUS  PA4
 #define MINUS PA3
@@ -14,15 +14,6 @@
 
 /* Initial status settings */
 unsigned int initial_button_status = 0x0;
-//unsigned int MENU_STATUS  = 0x0; // INITIAL LOW
-//unsigned int OK_STATUS    = 0x0;
-//unsigned int PLUS_STATUS  = 0x0;
-//unsigned int MINUS_STATUS = 0x0;
-//unsigned int UP_STATUS    = 0x0;
-//unsigned int DOWN_STATUS  = 0x0;
-//unsigned int SAVE_STATUS  = 0x0;
-//unsigned int HOLD_STATUS  = 0x0;
-//unsigned int RUN_STATUS   = 0x0;
 
 /* debounce handling */
 long TIME = 0;

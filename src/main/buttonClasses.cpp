@@ -11,29 +11,46 @@ void Button::checkButtonPress(){
     if((digitalRead(MENU)!= initial_button_status) && (millis()- TIME > DEBOUNCE_DELAY)){
       // menu button has been pressed
       Serial.println("menu"); // do sth meaningful here
-    }else if((digitalRead(OK) != initial_button_status) && (millis()- TIME > DEBOUNCE_DELAY)){
+    }
+    
+    if((digitalRead(OK) != initial_button_status) && (millis()- TIME > DEBOUNCE_DELAY)){
       // OK button has been pressed
       Serial.println("ok");  
-    }else if((digitalRead(PLUS) != initial_button_status) && (millis()- TIME > DEBOUNCE_DELAY)){
+    }
+    
+    if((digitalRead(PLUS) != initial_button_status) && (millis()- TIME > DEBOUNCE_DELAY)){
       // PLUS button has been pressed
       Serial.println("plus");
-    }else if((digitalRead(MINUS) != initial_button_status) && (millis()- TIME > DEBOUNCE_DELAY)){
+    }
+    
+    if((digitalRead(MINUS) != initial_button_status) && (millis()- TIME > DEBOUNCE_DELAY)){
       // MINUS button has been pressed
       Serial.println("minus");
-    }else if((digitalRead(SAVE) != initial_button_status) && (millis()- TIME > DEBOUNCE_DELAY)){
-      // MINUS button has been pressed
+    }
+
+    if((digitalRead(SAVE) != initial_button_status) && (millis()-TIME > DEBOUNCE_DELAY)){
+      // SAVE BUTTON PRESSED
       Serial.println("save");
-    }else if((digitalRead(UP) != initial_button_status) && (millis()- TIME > DEBOUNCE_DELAY)){
-      // MINUS button has been pressed
-      Serial.println("up");
-    }else if((digitalRead(HOLD) != initial_button_status) && (millis()- TIME > DEBOUNCE_DELAY)){
-      // MINUS button has been pressed
+    }
+
+    if((digitalRead(HOLD) != initial_button_status) && (millis()-TIME > DEBOUNCE_DELAY)){
+      // HOLD BUTTON PRESSED
       Serial.println("hold");
-    }else if((digitalRead(RUN) != initial_button_status) && (millis()- TIME > DEBOUNCE_DELAY)){
-      // MINUS button has been pressed
+    }
+
+    if((digitalRead(RUN) != initial_button_status) && (millis()-TIME > DEBOUNCE_DELAY)){
+      // RUN BUTTON PRESSED
       Serial.println("run");
-    }else if((digitalRead(DOWN) != initial_button_status) && (millis()- TIME > DEBOUNCE_DELAY)){
-      // MINUS button has been pressed
+    }
+
+    if((digitalRead(DOWN) != initial_button_status) && (millis()-TIME > DEBOUNCE_DELAY)){
+      // DOWN BUTTON PRESSED
       Serial.println("down");
     }
+
+    if((digitalRead(UP) != initial_button_status) && (millis()-TIME > DEBOUNCE_DELAY)){
+      // UP BUTTON PRESSED
+      Serial.println("up");
+    }
+
 }
