@@ -5,8 +5,8 @@ from tkinter import *
 from numpy import arange, sin, pi
 from matplotlib.backends.backend_tkagg import FigureCanvasTkAgg, NavigationToolbar2Tk
 from matplotlib.figure import Figure
-
-
+from grapher import Graph
+from collections import deque
 
 
 class ScopeScreen:
@@ -16,7 +16,7 @@ class ScopeScreen:
 
         # dictionary to define background color properties
         self.properties = {
-            "background": "gray18",
+            "background": "gray30",
             # "font": ('Helvetica', '17', 'bold')
         }
 
@@ -40,21 +40,28 @@ class ScopeScreen:
         self.establish_connection()
 
     def establish_connection(self):
-        if ConnectBoard("/dev/ttyUSB0"):
-            port = "/dev/ttyUSB0"
-            return port
+        # if ConnectBoard("/dev/ttyUSB0"):
+            #port = "/dev/ttyUSB0"
+            #return port
+
+        return "/dev/ttyUSB0"  # placeholder for when the board is not available
 
     def top_frame(self):
-        self.topfrm = Frame(self.root)
-        self.topfrm.pack(side=TOP, fill=BOTH)
-        Label(self.topfrm, self.properties,fg='gray80', font=('Arial', 25, 'bold'), text='Ohmicc-1').pack(side=tkinter.TOP, fill=tkinter.BOTH, expand=1)
+        self.topfrm = Frame(self.root, bg="green")
+        self.topfrm.pack(side=TOP)
+        Label(self.topfrm, self.properties, fg='gray80', font=('Arial', 20, 'bold'), text='Ohmicc-1').pack(side=tkinter.TOP, fill=tkinter.BOTH, expand=1)
 
         # frame to hold the left panel oscilloscope configurations
         self.leftfrm = Frame(self.topfrm, self.properties)
-        self.leftfrm.pack(side=LEFT, fill=BOTH, expand=1)
+        self.leftfrm.pack(side=LEFT, fill=X, expand=1)
 
         # port connected
         self.portfrm = LabelFrame(self.leftfrm, self.lblproperties)
+        self.portfrm.pack(side=TOP, fill=X, expand=1)
+        self.portlbl = Label(self.portfrm, self.lblproperties, text="Connected on port:")
+        self.portlbl.pack(side=TOP, fill=X, expand=1)
+        self.portconnected = Label(self.portfrm, self.lblproperties, text=self.establish_connection())
+        self.portconnected.pack(side=TOP, fill=X, expand=1)
 
         # Select mode
         self.modefrm = LabelFrame(self.leftfrm, self.lblproperties, text="Select Mode:")
@@ -117,28 +124,24 @@ class ScopeScreen:
         self.graphfrm = Frame(self.topfrm, self.properties)
         self.graphfrm.pack(side=tkinter.TOP, fill=tkinter.BOTH, expand=1)
 
-        # draw plot
-        f = Figure(figsize=(5, 4), dpi=100)
-        a = f.add_subplot(111)
-        t = arange(-1.0, 1.0, 0.001)
-        s = t*sin(1/t)
-        a.plot(t, s)
+        # todo: consider using matplotlib here
+        canva = Canvas(self.topfrm, width=400, height=300, bg="skyblue")
+        canva.pack(side=RIGHT, expand=1)
 
-        # embed matplotlib figure f on a tk.DrawingArea
-        canvas = FigureCanvasTkAgg(f, master=self.graphfrm)
-        canvas.get_tk_widget().pack(side=tkinter.TOP, fill=tkinter.BOTH, expand=1)
+        vals = deque([33, 44, 90, 43, 34, 34, 34])  # initialize dummy data here
+        canva.create_line(0, 300/2, 400, 300/2, fill="orangered2") # horinzontal divider
+        canva.create_line(200, 0, 200, 300, fill="orangered2")
 
-        # create toolbar
-        toolbar = NavigationToolbar2Tk(canvas, self.graphfrm)
-        toolbar.update()
 
+
+        print()
 
 
 if __name__ == '__main__':
     root = Tk()
 
     ScopeScreen(root)
-    root.geometry("650x470")
+    root.geometry("550x360")
     root.title("OhmiccDSO-1")
     root.resizable(0, 0)
     root.mainloop()
