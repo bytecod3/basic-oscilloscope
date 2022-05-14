@@ -1,0 +1,19 @@
+(kicad_sch (version 20211123) (generator eeschema)
+
+  (uuid 68186617-d0a0-4c59-9cb4-fb6168cf2c27)
+
+  (paper "A4")
+
+  (lib_symbols
+  )
+
+
+  (text "ARM-CORTEX-M3 MINI OSCILLOSCOPE" (at 78.74 87.63 0)
+    (effects (font (size 4.2672 4.2672) (thickness 0.8534) bold) (justify left bottom))
+    (uuid 3d6103bb-2562-4c86-863e-06bf4ba2cb86)
+  )
+  (text "Designed By: Edwin Mwiti, Ohmicc Hardware" (at 93.98 92.71 0)
+    (effects (font (size 2.2606 2.2606) (thickness 0.4521) bold) (justify left bottom))
+    (uuid b862642c-ed4b-4559-9556-a95cf75c164f)
+  )
+)
